@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.TestTest" time="0.022" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="MS932"/>
+    <property name="java.class.path" value="C:\javaStudy\demo\target\test-classes;C:\javaStudy\demo\target\classes;C:\Users\Administrator\.m2\repository\junit\junit\4.0\junit-4.0.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="GMT+09:00"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="JP"/>
+    <property name="sun.boot.library.path" value="C:\pleiades\2023-03\java\17\bin"/>
+    <property name="sun.java.command" value="C:\Users\Administrator\AppData\Local\Temp\surefire10596517907597699643\surefirebooter-20240527075505004_3.jar C:\Users\Administrator\AppData\Local\Temp\surefire10596517907597699643 2024-05-27T07-55-03_413-jvmRun1 surefire-20240527075505004_1tmp surefire_0-20240527075505004_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\javaStudy\demo\target\test-classes;C:\javaStudy\demo\target\classes;C:\Users\Administrator\.m2\repository\junit\junit\4.0\junit-4.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.language" value="ja"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="C:\pleiades\2023-03\java\17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\javaStudy\demo"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Administrator\AppData\Local\Temp\surefire10596517907597699643\surefirebooter-20240527075505004_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.6+10"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="MS932"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.6+10"/>
+    <property name="localRepository" value="C:\Users\Administrator\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.6"/>
+    <property name="user.dir" value="C:\javaStudy\demo"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="MS932"/>
+    <property name="java.library.path" value="C:\pleiades\2023-03\java\17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Administrator\Desktop\WINDOWS.X64_193000_db_home\bin;C:\pleiades\2023-03\java\17;C:\WINDOWS.X64_193000_db_home\bin;C:\app\oracle\bin;C:\Users\Administrator\Desktop\work\oracle\WINDOWS.X64_193000_db_home\bin;C:\Users\Administrator\Desktop\work\dev\WINDOWS.X64_193000_db_home\bin;C:\Users\Administrator\Desktop\work\docker\docker-images\OracleDatabase\SingleInstance\dockerfiles\19.3.0\WINDOWS.X64_193000_db_home\bin;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Users\takatsuka\AppData\Local\Programs\Python\Python310;C:\Users\takatsuka\AppData\Local\Programs\Python\Python310\Scripts;C:\Program Files\wooting-analog-sdk\;C:\Program Files\TortoiseSVN\bin;C:\pleiades\2023-03\java\17\bin;C:\Program Files\PuTTY\;C:\Users\Administrator\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\nodejs\;C:\Program Files\PostgreSQL\16\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python310\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Program Files\Git\bin;node_modules\npm\bin;C:\Users\Administrator\Downloads\instantclient_21_9;C:\Program Files\PostgreSQL\15\bin;C:\maven\bin;C:\Users\Administrator\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Administrator\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.6+10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="execute" classname="com.example.TestTest" time="0.01">
+    <system-out><![CDATA[縺頑ｱｺ縺ｾ繧翫�ｮ莠句燕蜃ｦ逅�
+B縺ｮ蜃ｦ逅�
+縺頑ｱｺ縺ｾ繧翫�ｮ莠句ｾ悟�ｦ逅�
+]]></system-out>
+  </testcase>
+</testsuite>
