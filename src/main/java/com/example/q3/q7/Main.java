@@ -23,7 +23,9 @@ public class Main {
 
         int count = 0;
         while (true) {
+            // 0.1秒ずつ
             Thread.sleep(100);
+            // 1追加される
             count++;
             if (count == 100) {
                 exec.shutdown();
@@ -33,3 +35,4 @@ public class Main {
         }
     }
 }
+
