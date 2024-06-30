@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class Sample {
     public static void main(String[] args) {
-        List<Integer> list = Arrays.asList(5, 4, 3, 2, 1);
+        List<Integer> list = Arrays.asList(8, 4, 7, 2, 1);
         list.stream()
                 .sorted((a, b) -> {
                     if (a < b) {
