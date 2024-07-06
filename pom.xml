@@ -19,7 +19,20 @@
             <artifactId>junit</artifactId>
             <version>4.0</version>
         </dependency>
-    </dependencies>
 
+        <!-- Derby Embedded Driver -->
+        <dependency>
+            <groupId>org.apache.derby</groupId>
+            <artifactId>derby</artifactId>
+            <version>10.16.1.1</version>
+        </dependency>
+
+        <!-- Derby Client Driver (if you need to connect to a network server) -->
+        <dependency>
+            <groupId>org.apache.derby</groupId>
+            <artifactId>derbyclient</artifactId>
+            <version>10.16.1.1</version>
+        </dependency>
+    </dependencies>
 
 </project>

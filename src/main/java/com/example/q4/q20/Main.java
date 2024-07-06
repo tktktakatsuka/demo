@@ -1,10 +1,11 @@
-package com.example.q4.q19;
+package com.example.q4.q20;
 import java.util.List;
+import java.util.Optional;
 
 public class Main {
     public static void main(String[] args) {
         List<Integer> list = List.of(1, 2, 3, 4, 5);
-        int result = list.stream().reduce(10, (a, b) -> a + b);
+        Optional<Integer> result = list.stream().max((a, b) -> a.compareTo(b));
         System.out.println(result);
     }
 }
