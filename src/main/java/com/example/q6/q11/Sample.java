@@ -4,17 +4,19 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 
 public class Sample {
     public static void main(String[] args) throws Exception {
         try{
             try(Connection con = DriverManager.getConnection("jdbc:derby://localhost:1527/data/Sample")){
-                var sql = "insert into item values(?,?)";
+                var sql = "select id, name from item";
                 try(PreparedStatement ps = con.prepareStatement(sql)){
-                    ps.setInt(1, 1);
-                    ps.setString(2, "hoge");
-                    int result = ps.executeUpdate();
-                    System.out.println(result + "件挿入しました。");
+                    ResultSet rs = ps.executeQuery();
+                    while (rs.next()) {
+                        System.out.print(rs.getInt(1) + ":");
+                        System.out.println(rs.getString("name"));
+                    }
                     // dosomethig
                 };
             };
