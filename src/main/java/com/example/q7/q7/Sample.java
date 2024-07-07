@@ -11,4 +11,4 @@ public class Sample {
         String msg = (String)test.getVal();
 
     }
-}
+}   
