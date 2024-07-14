@@ -9,7 +9,6 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
-import javax.lang.model.type.ExecutableType;
 
 public class Main {
     /**
@@ -25,7 +24,7 @@ public class Main {
             // futuresクラスに実行する処理を記述する。
             futures.add(exec.submit(() -> {
                 if (new Random().nextInt() % 2 != 0) {
-                    throw new Exception("0dd Number");
+                    throw new Exception("odd Number");
                 }
                 return true;
             }));
