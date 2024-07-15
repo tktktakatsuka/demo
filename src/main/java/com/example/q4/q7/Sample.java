@@ -8,7 +8,6 @@ public class Sample {
         Optional<String> result = sample.map(str -> {
             return str.toUpperCase();
         });
-
         System.out.println(sample.get());
         System.out.println(result.get());
     }
