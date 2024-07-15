@@ -1,11 +1,8 @@
 package com.example.q4.q23;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
-import java.util.Optional;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 public class CollectorsSample {
@@ -22,9 +19,7 @@ public class CollectorsSample {
                 .collect(Collectors.toMap(
                     item-> item.getId(), item->item
                 ));
-
         books.keySet().stream().forEach(System.out::println);
-
     }
 
 }
