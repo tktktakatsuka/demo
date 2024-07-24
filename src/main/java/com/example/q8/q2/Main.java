@@ -7,7 +7,7 @@ public class Main {
         Class<Item> obj = Item.class;
         if(obj.isAnnotationPresent(Test.class)){
             Test test = obj.getAnnotation(Test.class);
-            System.out.println(test.price());
+            System.out.println(test.getPrice());
         }
 
     }

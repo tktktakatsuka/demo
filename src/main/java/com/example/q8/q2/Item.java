@@ -1,6 +1,6 @@
 package com.example.q8.q2;
 
-@Test(name = "test", price = 100)
+@Test(name = "test", getPrice = 100)
 public class Item implements Comparable<Item> {
 
     public void display() {

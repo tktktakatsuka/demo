@@ -1,4 +1,4 @@
-package com.example.q8.q2;
+package com.example.q8.q3;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
@@ -7,5 +7,5 @@ import java.lang.annotation.RetentionPolicy;
 public @interface Test {
     String name();
 
-    int getPrice();
+    int price();
 }

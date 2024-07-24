@@ -8,7 +8,6 @@ public class Value<T> {
         super();
         this.val = val;
     }
-
     public T getVal(){
         return val;
     }
