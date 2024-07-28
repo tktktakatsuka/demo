@@ -1,0 +1,634 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Sample",
+            "request": "launch",
+            "mainClass": "com.example.q13.q23.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample",
+            "request": "launch",
+            "mainClass": "com.example.q13.q21.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample",
+            "request": "launch",
+            "mainClass": "com.example.q13.q17.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample",
+            "request": "launch",
+            "mainClass": "com.example.q13.q13.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample",
+            "request": "launch",
+            "mainClass": "com.example.q13.q12.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample",
+            "request": "launch",
+            "mainClass": "com.example.q13.q10.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.example.q13.q8.Main",
+            "projectName": "demo"
+        },
+        {
+            "args": [
+                "引数１",
+                "引数２"
+            ],
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "com.example.q1.q1.App",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "SampleImpl",
+            "request": "launch",
+            "mainClass": "com.example.q1.q10.SampleImpl",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample",
+            "request": "launch",
+            "mainClass": "com.example.q1.q11.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.example.q1.q12.Main",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "mainClass": "com.example.q1.q13.Main",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Main(2)",
+            "request": "launch",
+            "mainClass": "com.example.q1.q2.Main",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Outer",
+            "request": "launch",
+            "mainClass": "com.example.q1.q5.Outer",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Main(3)",
+            "request": "launch",
+            "mainClass": "com.example.q1.q6.Main",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Main(4)",
+            "request": "launch",
+            "mainClass": "com.example.q1.q7.Main",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "ListSample",
+            "request": "launch",
+            "mainClass": "com.example.q1.q8.ListSample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Main(5)",
+            "request": "launch",
+            "mainClass": "com.example.q1.q8.Main",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "D",
+            "request": "launch",
+            "mainClass": "com.example.q1.q9.D",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Main(6)",
+            "request": "launch",
+            "mainClass": "com.example.q13.q1.Main",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Main(7)",
+            "request": "launch",
+            "mainClass": "com.example.q2.q1.Main",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample(1)",
+            "request": "launch",
+            "mainClass": "com.example.q2.q10.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample(2)",
+            "request": "launch",
+            "mainClass": "com.example.q2.q12.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample(3)",
+            "request": "launch",
+            "mainClass": "com.example.q2.q2.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Main(8)",
+            "request": "launch",
+            "mainClass": "com.example.q2.q3.Main",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "com.example.q2.q5.Test",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Main(9)",
+            "request": "launch",
+            "mainClass": "com.example.q2.q6.Main",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Main(10)",
+            "request": "launch",
+            "mainClass": "com.example.q2.q7.Main",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "NewSample",
+            "request": "launch",
+            "mainClass": "com.example.q2.q7.NewSample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample(4)",
+            "request": "launch",
+            "mainClass": "com.example.q2.q9.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Main(11)",
+            "request": "launch",
+            "mainClass": "com.example.q3.q1.Main",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Main(12)",
+            "request": "launch",
+            "mainClass": "com.example.q3.q10.Main",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Main(13)",
+            "request": "launch",
+            "mainClass": "com.example.q3.q11.Main",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Main(14)",
+            "request": "launch",
+            "mainClass": "com.example.q3.q12.Main",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "RaceConditionSample",
+            "request": "launch",
+            "mainClass": "com.example.q3.q13.RaceConditionSample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "BankSample",
+            "request": "launch",
+            "mainClass": "com.example.q3.q14.BankSample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample(5)",
+            "request": "launch",
+            "mainClass": "com.example.q3.q15.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Main(15)",
+            "request": "launch",
+            "mainClass": "com.example.q3.q2.Main",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Main2",
+            "request": "launch",
+            "mainClass": "com.example.q3.q2.Main2",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Main(16)",
+            "request": "launch",
+            "mainClass": "com.example.q3.q3.Main",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Main2(1)",
+            "request": "launch",
+            "mainClass": "com.example.q3.q3.Main2",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample(6)",
+            "request": "launch",
+            "mainClass": "com.example.q3.q3.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Main(17)",
+            "request": "launch",
+            "mainClass": "com.example.q3.q4.Main",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Main(18)",
+            "request": "launch",
+            "mainClass": "com.example.q3.q5.Main",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Main(19)",
+            "request": "launch",
+            "mainClass": "com.example.q3.q6.Main",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Main(20)",
+            "request": "launch",
+            "mainClass": "com.example.q3.q7.Main",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Main(21)",
+            "request": "launch",
+            "mainClass": "com.example.q3.q8.Main",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Main(22)",
+            "request": "launch",
+            "mainClass": "com.example.q3.q9.Main",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Ex1",
+            "request": "launch",
+            "mainClass": "com.example.q4.q1.Ex1",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample(7)",
+            "request": "launch",
+            "mainClass": "com.example.q4.q10.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample(8)",
+            "request": "launch",
+            "mainClass": "com.example.q4.q11.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample(9)",
+            "request": "launch",
+            "mainClass": "com.example.q4.q12.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample(10)",
+            "request": "launch",
+            "mainClass": "com.example.q4.q13.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample(11)",
+            "request": "launch",
+            "mainClass": "com.example.q4.q14.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample(12)",
+            "request": "launch",
+            "mainClass": "com.example.q4.q16.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Main(23)",
+            "request": "launch",
+            "mainClass": "com.example.q4.q17.Main",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample(13)",
+            "request": "launch",
+            "mainClass": "com.example.q4.q17.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Main(24)",
+            "request": "launch",
+            "mainClass": "com.example.q4.q18.Main",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Main(25)",
+            "request": "launch",
+            "mainClass": "com.example.q4.q19.Main",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "OfTest",
+            "request": "launch",
+            "mainClass": "com.example.q4.q2.OfTest",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Main(26)",
+            "request": "launch",
+            "mainClass": "com.example.q4.q20.Main",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "CollectorsSample",
+            "request": "launch",
+            "mainClass": "com.example.q4.q23.CollectorsSample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample(14)",
+            "request": "launch",
+            "mainClass": "com.example.q4.q3.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample(15)",
+            "request": "launch",
+            "mainClass": "com.example.q4.q4.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample(16)",
+            "request": "launch",
+            "mainClass": "com.example.q4.q5.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample(17)",
+            "request": "launch",
+            "mainClass": "com.example.q4.q6.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample(18)",
+            "request": "launch",
+            "mainClass": "com.example.q4.q7.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample(19)",
+            "request": "launch",
+            "mainClass": "com.example.q4.q8.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample(20)",
+            "request": "launch",
+            "mainClass": "com.example.q5.q2.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample(21)",
+            "request": "launch",
+            "mainClass": "com.example.q5.q3.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample(22)",
+            "request": "launch",
+            "mainClass": "com.example.q6.q11.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample(23)",
+            "request": "launch",
+            "mainClass": "com.example.q6.q3.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample(24)",
+            "request": "launch",
+            "mainClass": "com.example.q6.q6.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample(25)",
+            "request": "launch",
+            "mainClass": "com.example.q6.q7.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample(26)",
+            "request": "launch",
+            "mainClass": "com.example.q6.q8.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample(27)",
+            "request": "launch",
+            "mainClass": "com.example.q6.q9.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample(28)",
+            "request": "launch",
+            "mainClass": "com.example.q7.q12.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample(29)",
+            "request": "launch",
+            "mainClass": "com.example.q7.q13.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample(30)",
+            "request": "launch",
+            "mainClass": "com.example.q7.q14.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample(31)",
+            "request": "launch",
+            "mainClass": "com.example.q7.q15.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample(32)",
+            "request": "launch",
+            "mainClass": "com.example.q7.q17.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample(33)",
+            "request": "launch",
+            "mainClass": "com.example.q7.q2.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample(34)",
+            "request": "launch",
+            "mainClass": "com.example.q7.q3.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample(35)",
+            "request": "launch",
+            "mainClass": "com.example.q7.q6.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample(36)",
+            "request": "launch",
+            "mainClass": "com.example.q7.q7.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Main(27)",
+            "request": "launch",
+            "mainClass": "com.example.q8.q2.Main",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Main(28)",
+            "request": "launch",
+            "mainClass": "com.example.q8.q3.Main",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Main(29)",
+            "request": "launch",
+            "mainClass": "com.example.q8.q4.Main",
+            "projectName": "demo"
+        }
+    ]
+}
