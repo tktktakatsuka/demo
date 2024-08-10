@@ -8,9 +8,9 @@ public class Sample {
 
         List<String> list = List.of("A","B","E","D");
         Stream<String> stream = list.parallelStream();
-        // stream.forEach((str) -> System.out.println(str));
+        stream.forEach((str) -> System.out.println(str));
         System.out.println("");
-        stream.forEachOrdered((str) -> System.out.println(str));
+        // stream.forEachOrdered((str) -> System.out.println(str));
     }
 
 }

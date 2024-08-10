@@ -1,0 +1,127 @@
+Thu Jul 18 22:54:41 GMT+09:00 2024 : Apache Derby Network Server - 10.16.1.1 - (1901046)が起動し、ポート1527で接続の受入れ準備が完了しました
+Thu Jul 18 22:54:46 GMT+09:00 2024 Thread[DRDAConnThread_2,5,main] Cleanup action starting
+java.sql.SQLException: データベース'Sample'が見つかりません。
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(SQLExceptionFactory.java:115)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(SQLExceptionFactory.java:141)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Util.java:225)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Util.java:220)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(EmbedConnection.java:3208)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleDBNotFound(EmbedConnection.java:767)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(EmbedConnection.java:437)
+	at org.apache.derby.iapi.jdbc.InternalDriver.getNewEmbedConnection(InternalDriver.java:630)
+	at org.apache.derby.iapi.jdbc.InternalDriver.connect(InternalDriver.java:295)
+	at org.apache.derby.iapi.jdbc.InternalDriver.connect(InternalDriver.java:922)
+	at org.apache.derby.jdbc.EmbeddedDriver.connect(EmbeddedDriver.java:125)
+	at org.apache.derby.impl.drda.Database.makeConnection(Database.java:253)
+	at org.apache.derby.impl.drda.DRDAConnThread.getConnFromDatabaseName(DRDAConnThread.java:1474)
+	at org.apache.derby.impl.drda.DRDAConnThread.verifyUserIdPassword(DRDAConnThread.java:1424)
+	at org.apache.derby.impl.drda.DRDAConnThread.parseSECCHK(DRDAConnThread.java:3378)
+	at org.apache.derby.impl.drda.DRDAConnThread.parseDRDAConnection(DRDAConnThread.java:1208)
+	at org.apache.derby.impl.drda.DRDAConnThread.processCommands(DRDAConnThread.java:1008)
+	at org.apache.derby.impl.drda.DRDAConnThread.run(DRDAConnThread.java:298)
+Caused by: ERROR XJ004: データベース'Sample'が見つかりません。
+	at org.apache.derby.shared.common.error.StandardException.newException(StandardException.java:299)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(SQLExceptionFactory.java:170)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(SQLExceptionFactory.java:75)
+	... 17 more
+============= begin nested exception, level (1) ===========
+ERROR XJ004: データベース'Sample'が見つかりません。
+	at org.apache.derby.shared.common.error.StandardException.newException(StandardException.java:299)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(SQLExceptionFactory.java:170)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(SQLExceptionFactory.java:75)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(SQLExceptionFactory.java:141)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Util.java:225)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Util.java:220)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(EmbedConnection.java:3208)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleDBNotFound(EmbedConnection.java:767)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(EmbedConnection.java:437)
+	at org.apache.derby.iapi.jdbc.InternalDriver.getNewEmbedConnection(InternalDriver.java:630)
+	at org.apache.derby.iapi.jdbc.InternalDriver.connect(InternalDriver.java:295)
+	at org.apache.derby.iapi.jdbc.InternalDriver.connect(InternalDriver.java:922)
+	at org.apache.derby.jdbc.EmbeddedDriver.connect(EmbeddedDriver.java:125)
+	at org.apache.derby.impl.drda.Database.makeConnection(Database.java:253)
+	at org.apache.derby.impl.drda.DRDAConnThread.getConnFromDatabaseName(DRDAConnThread.java:1474)
+	at org.apache.derby.impl.drda.DRDAConnThread.verifyUserIdPassword(DRDAConnThread.java:1424)
+	at org.apache.derby.impl.drda.DRDAConnThread.parseSECCHK(DRDAConnThread.java:3378)
+	at org.apache.derby.impl.drda.DRDAConnThread.parseDRDAConnection(DRDAConnThread.java:1208)
+	at org.apache.derby.impl.drda.DRDAConnThread.processCommands(DRDAConnThread.java:1008)
+	at org.apache.derby.impl.drda.DRDAConnThread.run(DRDAConnThread.java:298)
+============= end nested exception, level (1) ===========
+Cleanup action completed
+Thu Jul 18 22:54:46 GMT+09:00 2024 Thread[DRDAConnThread_2,5,main] (DATABASE = Sample), (DRDAID = {1}), データベース'Sample'が見つかりません。
+Thu Jul 18 22:55:26 GMT+09:00 2024 Thread[DRDAConnThread_2,5,main] Cleanup action starting
+java.sql.SQLException: データベース'Sample'が見つかりません。
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(SQLExceptionFactory.java:115)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(SQLExceptionFactory.java:141)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Util.java:225)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Util.java:220)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(EmbedConnection.java:3208)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleDBNotFound(EmbedConnection.java:767)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(EmbedConnection.java:437)
+	at org.apache.derby.iapi.jdbc.InternalDriver.getNewEmbedConnection(InternalDriver.java:630)
+	at org.apache.derby.iapi.jdbc.InternalDriver.connect(InternalDriver.java:295)
+	at org.apache.derby.iapi.jdbc.InternalDriver.connect(InternalDriver.java:922)
+	at org.apache.derby.jdbc.EmbeddedDriver.connect(EmbeddedDriver.java:125)
+	at org.apache.derby.impl.drda.Database.makeConnection(Database.java:253)
+	at org.apache.derby.impl.drda.DRDAConnThread.getConnFromDatabaseName(DRDAConnThread.java:1474)
+	at org.apache.derby.impl.drda.DRDAConnThread.verifyUserIdPassword(DRDAConnThread.java:1424)
+	at org.apache.derby.impl.drda.DRDAConnThread.parseSECCHK(DRDAConnThread.java:3378)
+	at org.apache.derby.impl.drda.DRDAConnThread.parseDRDAConnection(DRDAConnThread.java:1208)
+	at org.apache.derby.impl.drda.DRDAConnThread.processCommands(DRDAConnThread.java:1008)
+	at org.apache.derby.impl.drda.DRDAConnThread.run(DRDAConnThread.java:298)
+Caused by: ERROR XJ004: データベース'Sample'が見つかりません。
+	at org.apache.derby.shared.common.error.StandardException.newException(StandardException.java:299)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(SQLExceptionFactory.java:170)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(SQLExceptionFactory.java:75)
+	... 17 more
+============= begin nested exception, level (1) ===========
+ERROR XJ004: データベース'Sample'が見つかりません。
+	at org.apache.derby.shared.common.error.StandardException.newException(StandardException.java:299)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(SQLExceptionFactory.java:170)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(SQLExceptionFactory.java:75)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(SQLExceptionFactory.java:141)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Util.java:225)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Util.java:220)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(EmbedConnection.java:3208)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleDBNotFound(EmbedConnection.java:767)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(EmbedConnection.java:437)
+	at org.apache.derby.iapi.jdbc.InternalDriver.getNewEmbedConnection(InternalDriver.java:630)
+	at org.apache.derby.iapi.jdbc.InternalDriver.connect(InternalDriver.java:295)
+	at org.apache.derby.iapi.jdbc.InternalDriver.connect(InternalDriver.java:922)
+	at org.apache.derby.jdbc.EmbeddedDriver.connect(EmbeddedDriver.java:125)
+	at org.apache.derby.impl.drda.Database.makeConnection(Database.java:253)
+	at org.apache.derby.impl.drda.DRDAConnThread.getConnFromDatabaseName(DRDAConnThread.java:1474)
+	at org.apache.derby.impl.drda.DRDAConnThread.verifyUserIdPassword(DRDAConnThread.java:1424)
+	at org.apache.derby.impl.drda.DRDAConnThread.parseSECCHK(DRDAConnThread.java:3378)
+	at org.apache.derby.impl.drda.DRDAConnThread.parseDRDAConnection(DRDAConnThread.java:1208)
+	at org.apache.derby.impl.drda.DRDAConnThread.processCommands(DRDAConnThread.java:1008)
+	at org.apache.derby.impl.drda.DRDAConnThread.run(DRDAConnThread.java:298)
+============= end nested exception, level (1) ===========
+Cleanup action completed
+Thu Jul 18 22:55:26 GMT+09:00 2024 Thread[DRDAConnThread_2,5,main] (DATABASE = Sample), (DRDAID = {2}), データベース'Sample'が見つかりません。
+----------------------------------------------------------------
+Thu Jul 18 22:55:33 GMT+09:00 2024:
+DerbyバージョンThe Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046): インスタンスa816c00e-0190-c61f-a71b-00001f211c58を
+file:/C:/javaStudy/demo/db-derby-10.16.1.1-bin/lib/derby.jarからロードされたクラス・ローダーjdk.internal.loader.ClassLoaders$AppClassLoader@70dea4eにより
+データベース・ディレクトリC:\javaStudy\demo\db-derby-10.16.1.1-bin\Sample上でブートしています
+java.vendor=Eclipse Adoptium
+java.runtime.version=17.0.6+10
+user.dir=C:\javaStudy\demo\db-derby-10.16.1.1-bin
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+データベース・クラス・ローダーが開始されました - derby.database.classpath=''
+----------------------------------------------------------------
+Thu Jul 18 22:56:35 GMT+09:00 2024:
+DerbyバージョンThe Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046): インスタンス7337412a-0190-c61f-a71b-00001f211c58を
+file:/C:/javaStudy/demo/db-derby-10.16.1.1-bin/lib/derby.jarからロードされたクラス・ローダーjdk.internal.loader.ClassLoaders$AppClassLoader@70dea4eにより
+データベース・ディレクトリC:\javaStudy\demo\db-derby-10.16.1.1-bin\data\Sample上でブートしています
+java.vendor=Eclipse Adoptium
+java.runtime.version=17.0.6+10
+user.dir=C:\javaStudy\demo\db-derby-10.16.1.1-bin
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+データベース・クラス・ローダーが開始されました - derby.database.classpath=''

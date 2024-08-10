@@ -1,7 +1,6 @@
 package com.example.q4.q10;
 
 import java.util.List;
-import java.util.Optional;
 import java.util.stream.Stream;
 
 public class Sample {

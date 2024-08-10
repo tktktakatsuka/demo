@@ -20,12 +20,12 @@
             <version>4.0</version>
         </dependency>
 
-        <!-- Derby Embedded Driver -->
+        <!-- Derby Embedded Driver 
         <dependency>
             <groupId>org.apache.derby</groupId>
             <artifactId>derby</artifactId>
             <version>10.16.1.1</version>
-        </dependency>
+        </dependency>-->
 
         <!-- Derby Client Driver (if you need to connect to a network server) -->
         <dependency>
@@ -33,6 +33,17 @@
             <artifactId>derbyclient</artifactId>
             <version>10.16.1.1</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.34</version>
+            <scope>provided</scope>
+        </dependency>
+
+
     </dependencies>
+
 
 </project>

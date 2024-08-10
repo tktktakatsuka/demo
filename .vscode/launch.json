@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Sample",
             "request": "launch",
+            "mainClass": "com.example.q4.q9.Sample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Sample",
+            "request": "launch",
             "mainClass": "com.example.q13.q23.Sample",
             "projectName": "demo"
         },
