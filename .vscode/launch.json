@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "com.murasakiExample.q2.q2.Test",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.murasakiExample.q2.q1.Main",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "com.murasakiExample.q1.q5.Test",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "com.murasakiExample.q1.q4.Test",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "com.murasakiExample.q1.q3.Test",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "com.murasakiExample.q1.q1.Test",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "com.example.q10.q8.Main",

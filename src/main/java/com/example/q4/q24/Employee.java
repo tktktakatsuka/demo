@@ -5,10 +5,10 @@ import lombok.Data;
 @Data
 public class Employee {
     private String name;
-    private Department place;
+    private Department dept;
 
     public Employee(String name, Department place){
         this.name = name;
-        this.place = place;
+        this.dept = place;
     }
 }
