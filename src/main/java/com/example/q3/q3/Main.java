@@ -14,5 +14,13 @@ public class Main {
                 System.out.println(Thread.currentThread().getId());
             });
         }
+
+        System.out.println("hoge");
+
+        for (int i = 0; i < 5; i++) {
+            exec.submit(() -> {
+                System.out.println(Thread.currentThread().getId());
+            });
+        }
     }
 }
