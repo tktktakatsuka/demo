@@ -1,6 +1,6 @@
 package com.example.q1.q11;
 
-public class Sample implements A, C {
+public class Sample implements A, D {
 
     public static void main(String[] args) {
         Sample main = new Sample();
@@ -12,6 +12,7 @@ public class Sample implements A, C {
         System.out.println();
         A.super.test();
         // B.super.test();
-        C.super.test();
+        // C.super.test();
+        D.super.test();
     }
 }
